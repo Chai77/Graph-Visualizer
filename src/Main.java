@@ -1,7 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 5 + 5 - 6 * 24 / 24;
-        System.out.println(x);
-        System.out.println(23 % 4);
+        int x = 0;
+        double y = executeExpression(x);
+        System.out.println(y);
+        int x2 = 2;
+    }
+
+    static double executeExpression(int x) {
+        return x - 5;
     }
 }
